@@ -1,0 +1,58 @@
+.AdminTable {
+    width: 70%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .AdminTable th,
+  .AdminTable td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .AdminTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .AdminTable tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .AdminTable button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .AdminTable button:hover {
+    background-color: #45a049;
+  }
+  
+  .AdminTable .add-student {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .AdminTable .add-student label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .AdminTable .add-student input {
+    padding: 6px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 160px;
+  }
